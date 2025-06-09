@@ -5,7 +5,7 @@ import botHero from "../assets/bot-hero.png"
 function HeroSection({ onStart }) {
   return (
     <div className="text-center animate-fade-in">
-      <img src={botHero} alt="Bot Hero" className="w-60 mx-auto mb-6" />
+      <img src={botHero} alt="Bot Hero" className="w-100  mx-auto mb-6" />
       <h1 className="text-4xl font-bold text-white mb-2">AI Document Assistant</h1>
       <p className="text-lg text-gray-600 mb-6">Summarize. Ask. Understand your docs in seconds.</p>
       <button
