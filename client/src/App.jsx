@@ -4,7 +4,6 @@ import "./index.css"
 import HeroSection from "./components/HeroSection"
 import ChatbotSection from "./components/ChatboxSection"
 import AuthCard from "./components/AuthCard"
-
 function App() {
   const [step, setStep] = useState("auth") // 'auth' → 'hero' → 'chat'
 

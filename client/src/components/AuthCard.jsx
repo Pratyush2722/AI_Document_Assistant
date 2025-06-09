@@ -4,7 +4,7 @@ function AuthCard({ onSignUp }) {
   return (
     <div className="flex items-center justify-center min-h-screen text-white p-4">
 
-      <div className="w-full max-w-md backdrop-blur-xl bg-gradient-to-br from-black/40 to-blue-900/20 border border-white/20 rounded-2xl p-8 shadow-2xl animate-fade-in">
+      <div className="w-full max-w-md backdrop-blur-xl bg-gradient-to-br from-black/40 to-blue-600/20 border border-white/20 rounded-2xl p-8 shadow-2xl animate-fade-in">
 
         <h2 className="text-3xl font-bold mb-6 text-center drop-shadow text-white/90">
           ✨ Sign Up to AI Assistant
